@@ -1,32 +1,6 @@
 package oop;
 
 public class Tv {
-//	String student;
-//	int kor;
-//	int eng;
-//	int mat;
-//	
-//	int sum;
-//	int avg;
-//	
-//	void setKor(int k) {
-//		kor = k;
-//	}
-//	void setEng(int e) {
-//		eng = e;
-//	}
-//	void setMat(int m) {
-//		mat = m;
-//	}
-//	
-//	void setSum() {
-//		sum = kor + eng + mat;
-//	}
-//
-//	void setAvg() {
-//		avg = (kor + eng + mat) / 3;
-//		
-//	}
 	
 	boolean power;
 	int volume;

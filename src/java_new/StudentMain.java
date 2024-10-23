@@ -1,14 +1,26 @@
 package java_new;
 
+import java.util.Scanner;
+
 public class StudentMain {
 	public static void main(String[] args) {
 		
 		Student student = new Student();
+		Scanner scanner = new Scanner(System.in);
 		
-		student.setName("우주");
-		student.setKor(97);
-		student.setEng(85);
-		student.setMat(100);
+		String name = scanner.nextLine();
+		int kor = Integer.parseInt(scanner.nextLine());
+		int eng = Integer.parseInt(scanner.nextLine());
+		int mat = Integer.parseInt(scanner.nextLine());
+		
+		student.setName(name);
+		student.setKor(kor);
+		student.setEng(eng);
+		student.setMat(mat);
+//		student.setName("우주");
+//		student.setKor(97);
+//		student.setEng(85);
+//		student.setMat(100);
 		
 		int sum = student.getTotal();
 		float avg = student.getAvg();
